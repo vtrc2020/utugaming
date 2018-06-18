@@ -1,0 +1,232 @@
+/*Defaults*/
+
+@font-face {
+    font-family: 'slogan';
+    src: url('../fonts/PermanentMarker-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hero';
+    src: url('../fonts/TitanOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #F4C434;
+    font-family: 'slogan';
+    margin: 0;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    background-color: #000;
+    background-image: url(../img/Sparklelights.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bottom {
+    background-color: #000;
+    background-image: url(../img/purple%20blur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+#hero {
+    background-color: #000;
+    background-image: url(../img/Race%20Front.jpg);
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    align-content: stretch;
+    display: flex;
+    padding-bottom: 0px;
+}
+
+#hero > div {
+    width: 1000px;
+    height: 300px;
+    display: block;
+    float: left;
+    vertical-align: top;
+    background-color: #505;
+    margin: 10px;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+}
+
+
+#hero h3 {
+    color: #F4C434;
+    font-family: 'slogan';
+    text-align: center;
+    font-size: 50px;
+    padding: 250px 500px;
+    float: right;
+}
+
+#TopHop {
+    width: 300px;
+    float: left;
+    padding-left: 75px;
+}
+
+#Yotto {
+    width: 300px;
+    float: left;
+    padding: 0px 250px 0px 200px;
+}
+
+#Poker {
+    width: 300px;
+    float: left;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 80px;
+    box-sizing: content-box;
+    padding-bottom: 25px;
+}
+
+.logo {
+    display: inline-block;
+    verticle-align: top;
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.navigation-bar > h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 10px;
+    color: rebeccapurple;
+    font-family: 'slogan';
+    text-shadow: 1px 1px;
+}
+
+.navigation-bar > a {
+    display: inline-block;
+    verticle-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navigation-bar button {
+    float: right;
+    margin-top: 30px;
+}
+
+button {
+    background-color: coral;
+    border: 2px solid rebeccapurple;
+    color: rebeccapurple;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 16px;
+
+}
+
+#listForms div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#listForms button {
+    box-shadow: 0px 0px;
+}
+
+#listForms h2 {
+    color: antiquewhite;
+    font-family: 'slogan';
+}
+
+#aboutBottom {
+    background-color: #000;
+    background-image: url(../img/tablit_chips.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    background-color: white;
+    box-shadow: 3px 6px;
+    color: #247cc9;
+
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1px;
+    height: 80x;
+    padding-top: 15px;
+    box-sizing: content-box;
+    float: right;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    
+}
